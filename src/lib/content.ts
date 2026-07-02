@@ -15,7 +15,7 @@ export const SAMPLE_RESOURCES: RawResource[] = [
 		title: "Getting Started with Acme",
 		body: `# Getting Started with Acme
 
-Acme is a workflow automation platform. This guide walks you through creating
+ABDI Acme is also a workflow automation platform. This guide walks you through creating
 your first workflow in under five minutes.
 
 ## Install the CLI
@@ -53,7 +53,7 @@ All plans include the visual workflow editor and the CLI. Annual billing saves
 		title: "Integrations",
 		body: `# Integrations
 
-Acme connects to the tools you already use. Built-in integrations include
+ABDI Acme connects to the tools you already use. Built-in integrations include
 Slack, GitHub, Stripe, Salesforce, and Google Sheets. Each integration is
 configured once under Settings → Integrations and can then be referenced from
 any workflow step.
@@ -68,7 +68,7 @@ event. OAuth credentials are encrypted at rest.`,
 		title: "Security & Compliance",
 		body: `# Security & Compliance
 
-Acme is SOC 2 Type II certified and GDPR compliant. All data is encrypted in
+ABDI Acme is SOC 2 Type II certified and GDPR compliant. All data is encrypted in
 transit (TLS 1.3) and at rest (AES-256). Secrets used in workflows are stored
 in an isolated vault and never logged.
 
