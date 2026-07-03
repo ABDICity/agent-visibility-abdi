@@ -33,7 +33,7 @@ Konten dakwah dan kemitraan ekonomi diekstraksi serta diperkaya (*enriched*) **h
 
 ## 🛠️ Langkah Cerdas Menambahkan Fitur Gerbang Data Baru (Surfaces)
 
-Jika Anda ingin menambahkan format data baru (misal: `/jadwal-solat.json` atau `/kas-muamalah.txt`), ikuti 4 langkah terstruktur ini:
+Jika kita ingin menambahkan format data baru (misal: `/jadwal-solat.json` atau `/kas-muamalah.txt`), ikuti 4 langkah terstruktur ini:
 
 1.  **Tulis Render Murni:** Tambahkan fungsi perentalan baru di dalam file `src/enrichment/surfaces.ts`.
 2.  **Daftarkan Jalur Rute:** Buat rute pemanggilan baru di `src/worker/index.ts`. Jangan lupa kirimkan header `Content-Signal` yang sesuai serta aktifkan middleware `cors()` jika data tersebut akan diambil secara lintas-domain oleh aplikasi frontend eksternal.
